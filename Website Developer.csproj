@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3206FFA7-5DA7-41FA-A707-CE549D23FFD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Website_Developer</RootNamespace>
+    <AssemblyName>Website Developer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Website Exporter.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveProject_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\closeProject_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\closeProject_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_lightBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_maroon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_navy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\colorBar_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\editor_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\editor_btn_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\editor_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\exit_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\exit_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\exportSite_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\exportSite_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\layoutIconMultiple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\layoutIconMultiple_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\layoutIconSingle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\layoutIconSingle_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\preview_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\preview_btn_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\preview_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\saveProject_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\saveProject_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\sideBarBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\themeSettings_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\themeSettings_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\themeSettings_btn_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\themeSettings_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\topBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\footer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-lightblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-maroon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-navy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-purple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\landingPage1\header-yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\urlLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\fontSettings_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\fontSettings_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\fontSettings_btn_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\fontSettings_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pages_Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pages_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pages_btn_selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pages_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pagesAddPage_btn_onHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\pagesAddPage_btn_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Graphics\buttonMenu_exit_onHover.png" />
+    <None Include="bin\Debug\Graphics\buttonMenu_exit_static.png" />
+    <None Include="bin\Debug\Graphics\buttonMenu_loadProject_onHover.png" />
+    <None Include="bin\Debug\Graphics\buttonMenu_loadProject_static.png" />
+    <None Include="bin\Debug\Graphics\buttonMenu_newProject_onHover.png" />
+    <None Include="bin\Debug\Graphics\buttonMenu_newProject_static.png" />
+    <None Include="bin\Debug\Graphics\mainMenu_Background.png" />
+    <None Include="bin\Debug\Graphics\recentFileIcon.png" />
+    <None Include="bin\Debug\Graphics\buttonNewProject_back_onHover.png" />
+    <None Include="bin\Debug\Graphics\buttonNewProject_back_static.png" />
+    <None Include="bin\Debug\Graphics\buttonNewProject_create_onHover.png" />
+    <None Include="bin\Debug\Graphics\buttonNewProject_create_static.png" />
+    <None Include="bin\Debug\Graphics\singleBars_ThemeBtn_notselected.png" />
+    <None Include="bin\Debug\Graphics\singleBars_ThemeBtn_selected.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Changing Content.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Creating a page.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\editor.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Font Settings.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\New Project.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Pages Panel1.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Pages Panel2.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Renaming Pages.png" />
+    <None Include="bin\Debug\Graphics\Help Pictures\Theme Settings.png" />
+    <Content Include="Program Information.txt" />
+    <Content Include="Program To-Do List.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Projects\" />
+    <Folder Include="bin\Debug\User Images\" />
+    <Folder Include="bin\Debug\Website Themes\SingleBar\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

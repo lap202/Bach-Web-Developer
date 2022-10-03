@@ -1,0 +1,38 @@
+﻿Editor panel location: 240, 48
+Editor panel size: 944, 684
+
+Image Location Panel: 709, 383
+
+Location of side bar menus
+Theme Settings Location: 239, 151
+Font Settings Location: 239, 202
+Pages Menu Location: 239, 255
+
+
+FONT FAMILIES
+0 = font-family: Arial, Helvetica, sans-serif;.
+1 = font-family: "Arial Black", Gadget, sans-serif;
+2 = font-family: "Comic Sans MS", cursive, sans-serif;
+3 = font-family: Impact, Charcoal, sans-serif;
+4 = font-family: "Courier New", Courier, monospace;
+5 = font-family: "Times New Roman", Times, serif;
+6 = font-family: Verdana, Geneva, sans-serif;
+
+arrayWebsite Key
+[ , 0] - Page Name //First page will always be stored as index. Rest are user defined
+[ , 1] - Page Layout //1 - Single Layout, 2 - Multiple Layout
+[ , 2] - Page Color //0 - Navy, 1 - Maroon, 2 - Green, 3 - Light Blue, 4 - Orange, 5 - Yellow, 6 - Purple, 7 - Red
+[ , 3] - Title Font
+[ , 4] - Title Text Color
+[ , 5] - Title Text 
+[ , 6] - Menu Font
+[ , 7] - Menu Text Color
+[ , 8] - Menu Text Color On Hover
+[ , 9] - Content Font
+[ , 10] - Content Text Color
+[ , 11] - Content 1 Text
+[ , 12] - Content 2 Text
+[ , 13] - Image Location
+[ , 14] - Image Alt Text
+
+

@@ -1,0 +1,22 @@
+﻿MILESTONE 3 due NOV 29th
+ALPHA due DEC 6th
+FINAL due DEC 9th
+
+0.11: GUI built and ready to program (COMPLETE)
+0.12: Theme settings menu (COMPLETE)
+0.13: Font Settings Menu (COMPLETE)
+0.14: Pages Menu (COMPLETE)
+0.15: Close Project and corresponding menu strip items (COMPLETE)
+0.16: Basic editor functions complete (COMPLETE)
+0.17: Main Menu GUI (COMPLETE)
+0.18: Main Menu programming complete (COMPLETE)
+0.19: New Project GUI (Page info and theme selection) (COMPLETE)
+0.20: Help feature - (BETA VERSION - Revamp)
+0.21: Export functionality needs to be done - (COMPLETE)
+---------Alpha in here somewhere--------------
+0.22: Build the help document (BETA VERSION - Revamp)
+0.23: Create application settings (Scrapped for now)
+0.24: create project settings (Scrapped for now)
+0.25:
+--------Due Date in here somewhere------------
+0.26: Convert from hard coded div locations to addable containers that scale up to 3 wide. (Would have loved to do this right away, but outside of my skill range right now)
